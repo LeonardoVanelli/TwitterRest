@@ -15,7 +15,9 @@ uses
   URepositorioDB in 'Modelo\Persistencia\URepositorioDB.pas',
   URegraCRUD in 'Modelo\Regra\URegraCRUD.pas',
   UFrmPesquisa in 'VisaoControle\UFrmPesquisa.pas' {frmPesquisa},
-  UFrmPrincipalTwitter in 'VisaoControle\UFrmPrincipalTwitter.pas' {frmPrincipalTwitter};
+  UFrmPrincipalTwitter in 'VisaoControle\UFrmPrincipalTwitter.pas' {frmPrincipalTwitter},
+  UUsuarioTwitter in '..\Communs\Persistencia\UUsuarioTwitter.pas',
+  UTwits in '..\Communs\Persistencia\UTwits.pas';
 
 {$R *.res}
 

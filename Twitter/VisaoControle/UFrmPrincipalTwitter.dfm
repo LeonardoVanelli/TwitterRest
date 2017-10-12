@@ -4,7 +4,7 @@ object frmPrincipalTwitter: TfrmPrincipalTwitter
   ActiveControl = pnlCabecalho
   Anchors = [akLeft, akTop, akRight, akBottom]
   Caption = 'Baiduo'
-  ClientHeight = 561
+  ClientHeight = 610
   ClientWidth = 864
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -25,13 +25,14 @@ object frmPrincipalTwitter: TfrmPrincipalTwitter
     Left = 532
     Top = 41
     Width = 4
-    Height = 520
+    Height = 569
     Align = alRight
     Color = clBlack
     ParentColor = False
     Visible = False
     ExplicitLeft = 435
     ExplicitTop = 47
+    ExplicitHeight = 520
   end
   object pnlCabecalho: TPanel
     Left = 0
@@ -63,14 +64,15 @@ object frmPrincipalTwitter: TfrmPrincipalTwitter
     Left = 0
     Top = 41
     Width = 241
-    Height = 520
+    Height = 569
     Align = alLeft
     TabOrder = 1
+    ExplicitHeight = 520
     object imgMenu: TImage
       Left = -15
       Top = -1
       Width = 256
-      Height = 521
+      Height = 570
       Align = alCustom
       Anchors = [akLeft, akTop, akRight, akBottom]
       Picture.Data = {
@@ -769,7 +771,7 @@ object frmPrincipalTwitter: TfrmPrincipalTwitter
         234)
       object stTrendingTopic1: TStaticText
         Left = 8
-        Top = 38
+        Top = 34
         Width = 172
         Height = 22
         Anchors = [akLeft, akBottom]
@@ -790,7 +792,7 @@ object frmPrincipalTwitter: TfrmPrincipalTwitter
       end
       object stTrendingTopic2: TStaticText
         Left = 8
-        Top = 75
+        Top = 71
         Width = 172
         Height = 22
         Anchors = [akLeft, akBottom]
@@ -811,7 +813,7 @@ object frmPrincipalTwitter: TfrmPrincipalTwitter
       end
       object stTrendingTopic3: TStaticText
         Left = 8
-        Top = 116
+        Top = 112
         Width = 172
         Height = 22
         Anchors = [akLeft, akBottom]
@@ -832,7 +834,7 @@ object frmPrincipalTwitter: TfrmPrincipalTwitter
       end
       object stTrendingTopic4: TStaticText
         Left = 8
-        Top = 155
+        Top = 151
         Width = 172
         Height = 22
         Anchors = [akLeft, akBottom]
@@ -853,7 +855,7 @@ object frmPrincipalTwitter: TfrmPrincipalTwitter
       end
       object stTrendingTopic5: TStaticText
         Left = 8
-        Top = 192
+        Top = 188
         Width = 172
         Height = 20
         Anchors = [akLeft, akBottom]
@@ -930,7 +932,7 @@ object frmPrincipalTwitter: TfrmPrincipalTwitter
     Left = 241
     Top = 41
     Width = 291
-    Height = 520
+    Height = 569
     Align = alClient
     BorderStyle = bsNone
     Color = 4210752
@@ -943,23 +945,25 @@ object frmPrincipalTwitter: TfrmPrincipalTwitter
     ReadOnly = True
     ScrollBars = ssVertical
     TabOrder = 2
+    ExplicitHeight = 520
   end
   object pnlFiltro: TPanel
     Left = 536
     Top = 41
     Width = 328
-    Height = 520
+    Height = 569
     Align = alRight
     TabOrder = 3
     Visible = False
+    ExplicitHeight = 520
     DesignSize = (
       328
-      520)
+      569)
     object meFiltro: TMemo
       Left = -6
       Top = -1
       Width = 336
-      Height = 522
+      Height = 571
       Align = alCustom
       Anchors = [akLeft, akTop, akRight, akBottom]
       BorderStyle = bsNone
@@ -973,17 +977,19 @@ object frmPrincipalTwitter: TfrmPrincipalTwitter
       ReadOnly = True
       ScrollBars = ssVertical
       TabOrder = 0
+      ExplicitHeight = 522
     end
     object btnMinimizarFiltro: TButton
       AlignWithMargins = True
       Left = -2
-      Top = 504
+      Top = 553
       Width = 16
       Height = 15
       Anchors = [akBottom]
       Caption = #187
       TabOrder = 1
       OnClick = btnMinimizarFiltroClick
+      ExplicitTop = 504
     end
   end
   object Timer1: TTimer

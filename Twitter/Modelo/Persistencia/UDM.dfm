@@ -1,8 +1,8 @@
 object dmEntra21: TdmEntra21
   OldCreateOrder = False
   OnCreate = DataModuleCreate
-  Height = 97
-  Width = 183
+  Height = 116
+  Width = 236
   object SQLConnection: TSQLConnection
     ConnectionName = 'IBConnection'
     DriverName = 'Firebird'

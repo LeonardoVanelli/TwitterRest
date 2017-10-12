@@ -30,7 +30,7 @@ const
 
 resourcestring
 
-   STR_USUARIO  = 'Usuario do Twitter';
+   STR_TWITS  = 'TWITADAS DO USUARIO';
 
 implementation
 

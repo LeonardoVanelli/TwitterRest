@@ -15,13 +15,13 @@ uses
   URepositorioDB in 'Modelo\Persistencia\URepositorioDB.pas',
   URegraCRUD in 'Modelo\Regra\URegraCRUD.pas',
   UFrmPesquisa in 'VisaoControle\UFrmPesquisa.pas' {frmPesquisa},
-  FormularioPrincipal in 'VisaoControle\FormularioPrincipal.pas';
+  UFrmPrincipalTwitter in 'VisaoControle\UFrmPrincipalTwitter.pas' {frmPrincipalTwitter};
 
 {$R *.res}
 
 begin
   Application.Initialize;
-  Application.CreateForm(TFrmPrincipal, FrmPrincipal);
+  Application.CreateForm(TfrmPrincipalTwitter, frmPrincipalTwitter);
   Application.CreateForm(TdmEntra21, dmEntra21);
   Application.Run;
 end.

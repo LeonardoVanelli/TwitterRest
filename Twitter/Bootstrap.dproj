@@ -82,7 +82,9 @@
 			<DCCReference Include="VisaoControle\UFrmPesquisa.pas">
 				<Form>frmPesquisa</Form>
 			</DCCReference>
-			<DCCReference Include="VisaoControle\FormularioPrincipal.pas"/>
+			<DCCReference Include="VisaoControle\UFrmPrincipalTwitter.pas">
+				<Form>frmPrincipalTwitter</Form>
+			</DCCReference>
 			<BuildConfiguration Include="Debug">
 				<Key>Cfg_2</Key>
 				<CfgParent>Base</CfgParent>
